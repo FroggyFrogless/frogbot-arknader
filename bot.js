@@ -33,12 +33,6 @@ client.on('message', message => {
     if (message.content === 'frog!subscribe') {
     	message.reply('Yeah dont forget to subscribe https://www.youtube.com/c/froggyfrogarmy');
   	}
-    if (message.content === '@Arknader') {
-    	message.reply('Please dont @ me');
-  	}
-    if (message.content === '@FrogBot') {
-    	message.reply('Please dont @ me');
-  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
