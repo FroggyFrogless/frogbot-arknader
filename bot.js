@@ -15,9 +15,9 @@ client.on('message', message => {
 });
 
 Client = discord.Client()
-client = commands.Bot(command_prefix = "?")
+client = commands.Bot(command_prefix = "ark!")
 
-chat_filter = ["PINEAPPLE", "APPLE", "CHROME"]
+chat_filter = ["BITCH", "NIGGER", "FUCK", "DICK", "PENIS", "PUSY"]
 bypass_list = []
 
 @client.event
@@ -35,6 +35,8 @@ async def on_message(message):
                     await client.send_message(message.channel, "**Hey!** You're not allowed to use that word here!")
                 except discord.errors.NotFound:
                     return
-
+                    
+                    
+                    
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
