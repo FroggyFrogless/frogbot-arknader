@@ -18,6 +18,9 @@ client.on('message', message => {
     if (message.content === 'ark!') {
     	message.reply('Try >ark!help<');
   	}
+    if (message.content === 'ark!subscribe') {
+    	message.reply('Yeah dont forget to subscribe https://www.youtube.com/channel/UCH7NFZ4nEoLwSAV3x-pwccw');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
