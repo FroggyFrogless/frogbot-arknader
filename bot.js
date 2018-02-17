@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('Bot up and Running!');
-
+});
 
 client.on('message', message => {
     if (message.content === 'ping') {
@@ -34,7 +34,6 @@ client.on('message', message => {
     	message.reply('Yeah dont forget to subscribe https://www.youtube.com/c/froggyfrogarmy');
   	}
 });
-
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
